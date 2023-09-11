@@ -23,7 +23,7 @@ params:
       enabled: false
       title: nematatu blog
       subtitle: Tech,Dairy and Photos Blog!
-      imageUrl: "/img/icon.jpg"
+      imageUrl: "https://github.com/nematatu/nematatu.github.io/blob/main/static/img/icon.jpg"
       imageWidth: 200 # custom size
       imageHeight: 200 # custom size
       buttons:
