@@ -38,17 +38,17 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
     profileMode:
-          enabled: false
+          enabled: true
           title: nematatu blog
-          subtitle: Tech,Dairy and Photos Blog!
+          subtitle: 💻 Tech | 📒 Diary | 📸 Photos | 
           imageUrl: "/img/icon.jpg"
           imageWidth: 200 # custom size
           imageHeight: 200 # custom size
           buttons:
-            - name: Archive
-              url: "/archives"
-            - name: Github
-              url: "https://github.com/"
+            - name: all posts
+              url: "posts/"
+            - name: portfolio
+              url: "https://nematatu.github.io/website/mysite/"
 
 outputs:
     home:
@@ -61,22 +61,14 @@ menu:
       url: archives/
       weight: 5
 
-    - name: Resume
-      url: resume/
-      weight: 5
-
     - name: Search
       url: search/
       weight: 5
     
-    - name: portfolio
-      url: https://nematatu.github.io/website/mysite/
-      weight: 5
-    
     - name: Tags
-      url: tag/
+      url: tags/
       weight: 5
 
-    - name: Photos
-      url: https://nematatu.github.io/categories/
+    - name: Categories
+      url: categories/
       weight: 5
