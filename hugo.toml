@@ -1,4 +1,4 @@
 baseURL = 'https://nematatu.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'nematatu blog'
 theme='hugo-PaperMod'
