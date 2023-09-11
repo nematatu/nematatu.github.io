@@ -4,6 +4,11 @@
     <title>Posts on nematatu blog</title>
     <link>https://nematatu.github.io/posts/</link>
     <description>Recent content in Posts on nematatu blog</description>
+    <image>
+      <title>nematatu blog</title>
+      <url>https://nematatu.github.io/img/%E7%86%8A%E6%9C%AC%E9%81%A0%E5%BE%81/sirakawa_1.JPG</url>
+      <link>https://nematatu.github.io/img/%E7%86%8A%E6%9C%AC%E9%81%A0%E5%BE%81/sirakawa_1.JPG</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Sep 2023 02:49:14 +0900</lastBuildDate><atom:link href="https://nematatu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
