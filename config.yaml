@@ -19,11 +19,12 @@ params:
         - name: twitter
           url: "https://twitter.com/T_kanntoku/"
 
+fr:        
     profileMode:
-      enabled: false
+      enabled: true
       title: nematatu blog
       subtitle: Tech,Dairy and Photos Blog!
-      imageUrl: "https://github.com/nematatu/nematatu.github.io/blob/main/static/img/icon.jpg"
+      imageUrl: "/img/icon.jpg"
       imageWidth: 200 # custom size
       imageHeight: 200 # custom size
       buttons:
