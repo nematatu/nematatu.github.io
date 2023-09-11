@@ -2,6 +2,9 @@ baseURL: 'https://nematatu.github.io/'
 languageCode: en-us
 title: nematatu blog
 theme: hugo-PaperMod
+taxonomies:
+  tag: tags
+  category: categories
 
 params:
     defaultTheme: auto 
@@ -68,3 +71,10 @@ menu:
     
     - name: portfolio
       url: https://nematatu.github.io/website/mysite/
+      weight: 5
+    
+    - name: Tags
+      url: tag/
+      weight: 5
+
+    
