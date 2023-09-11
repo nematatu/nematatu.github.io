@@ -77,4 +77,6 @@ menu:
       url: tag/
       weight: 5
 
-    
+    - name: Photos
+      url: https://nematatu.github.io/categories/
+      weight: 5
