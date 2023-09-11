@@ -7,6 +7,14 @@ params:
     defaultTheme: auto 
     ShowShareButtons: true
     ShowReadingTime: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    comments: true
+    editPost:
+        URL: "https://github.com/nematatu/nematatu.github.io/tree/main/content/"
+        Text: "Suggest Changes"
+        appendFilePath: true
     homeInfoParams:
         Title: Hi there!🔥
         Content: >
@@ -18,22 +26,7 @@ params:
           url: "https://github.com/nematatu/"
         - name: twitter
           url: "https://twitter.com/T_kanntoku/"
-
-fr:        
-    profileMode:
-      enabled: true
-      title: nematatu blog
-      subtitle: Tech,Dairy and Photos Blog!
-      imageUrl: "/img/icon.jpg"
-      imageWidth: 200 # custom size
-      imageHeight: 200 # custom size
-      buttons:
-        - name: Archive
-          url: "/archives"
-        - name: Github
-          url: "https://github.com/"
-
-      fuseOpts:
+    fuseOpts:
         isCaseSensitive: false
         shouldSort: true
         location: 0
@@ -41,6 +34,18 @@ fr:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+    profileMode:
+          enabled: false
+          title: nematatu blog
+          subtitle: Tech,Dairy and Photos Blog!
+          imageUrl: "/img/icon.jpg"
+          imageWidth: 200 # custom size
+          imageHeight: 200 # custom size
+          buttons:
+            - name: Archive
+              url: "/archives"
+            - name: Github
+              url: "https://github.com/"
 
 outputs:
     home:
@@ -61,3 +66,5 @@ menu:
       url: search/
       weight: 5
     
+    - name: portfolio
+      url: https://nematatu.github.io/website/mysite/
