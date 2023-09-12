@@ -45,9 +45,9 @@ params:
           imageWidth: 200 # custom size
           imageHeight: 200 # custom size
           buttons:
-            - name: all posts
+            - name: Articles
               url: "posts/"
-            - name: portfolio
+            - name: Portfolio
               url: "https://nematatu.github.io/website/mysite/"
     twitterID: "@T_kanntoku"
     description: "きつねの「ととがんま」が運営する個人サイトです。個人的な日記から電子工作やプログラミングのメモを、備忘録として公開しています。"
