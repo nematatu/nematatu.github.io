@@ -50,8 +50,8 @@ params:
             - name: Portfolio
               url: "https://nematatu.github.io/website/mysite/"
     twitterID: "@T_kanntoku"
-    description: "きつねの「ととがんま」が運営する個人サイトです。個人的な日記から電子工作やプログラミングのメモを、備忘録として公開しています。"
-    images: ["/img/熊本遠征/sirakawa_1.JPG"]
+    description: ""
+    images: ["/img/twitter_card.png"]
 
 outputs:
     home:
