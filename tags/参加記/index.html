@@ -2,7 +2,28 @@
 今回は即席チームとして参加し、Discordで通話しながらでの開発でした。
 開発した作品 概要 ブックマークしたけど読んでないサイトを推しが通知してくれるWebアプリ「Oshi remind」を作りました。
 スクリーンショット 背景 最初の話し合いで「作るなら日常の悩みからくるものが良いよね」となり、僕は技術記事を積読しちゃうことが結構あるので提案してみたところ、推しキャラと組み合わせる事になりました。
-技術 フロントエンド バックエンド 担当した部分 技術 開発過程 振り返り 結果 良かったこと 反省点</p></div><footer class=entry-footer><span title='2023-09-12 05:50:57 +0900 +0900'>September 12, 2023</span>&nbsp;·&nbsp;1 min</footer><a class=entry-link aria-label="post link to 技育CAMP_vol9" href=https://nematatu.github.io/posts/%E6%8A%80%E8%82%B2camp_vol9/></a></article></main><footer class=footer><span>&copy; 2023 <a href=https://nematatu.github.io/>nematatu blog</a></span>
+技術 フロントエンド 拡張機能、サイトにTypeScript,React,Next.js,tailwindcss
+バックエンド OpenAI(FineTuning),Python,django,docker
+担当した部分 拡張機能とリーディングリストの作成を担当しました。
+TypeScript,React,Next.jsを使いました。すべて初めて触る技術だったので探り探りでしたがひとまず形にできてよかったです。
+最初はJSとReactだけで書いていたのですが、色々あってJS→TS、React→React+Next.jsにしました。
+開発手法 タスク管理にGitHubのProjectsという機能を使いました。
+Todoとしてissueを立てる わかりやすいブランチ名でリモートリポジトリにプッシュ そのブランチとissueを紐付ける mainブランチにPRを作成 メンバーにレビューしてもらい、マージされることでissueが閉じる。 Organizationはじめ、issueやPRなどのGitHub上での開発が初めてだったのでとてもいい経験になりました。
+Projectsとは？ チーム開発でそれぞれのTODO,進捗状況を管理できるものです。
+Table,Board,Roadmapがあり、今回はBoardを使いました。
+振り返り 結果 残念ながら入賞することはできませんでした。
+結構頑張ったので悔しいです。
+苦労したこと React→React+Next.jsにするのが一番大変でした。
+「React Next.js 置換」などで調べながら実装しようとしましたがうまく行かず、結局 ,npx create-next-appでいちから作り直しました。
+_document.tsx,layout.tsx,page.tsxなどNext.js特有のファイル構成を理解しないまま実装したので大変でした。
+今後Next.jsも学んでいこうと思います。 また、リーディングリストをデプロイできなかったのが反省です。
+Next.jsでの置換がギリギリだったので今後はデプロイから逆算してスケジュール管理をしたいと思います。
+がんばったこと 保存したいサイトで拡張機能を実行すると、そのサイトのタイトルとURLを取得してサーバーに送信するところに注力しました。
+タイトル、URLはjson-serverを立てて管理しました。
+サーバーとのやり取りにはAxiosというライブラリを使いました。 それと、チームの他の方がファインチューニングを実装していて英語のドキュメントすら充実していない中、DiscordのOpenAIサーバーに入って質問していたりなどしていてすごいなと思いました。
+おわりに GitHubのProjectsでタスク管理することで開発の生産性がとても上がったのがすごく良かったです。
+今までなあなあで開発してきましたが、今後は個人開発においても使っていこうと思います。（このブログでも使ってます）
+来月の技育CAMPキャラバン大阪にも参加するので、デプロイを目標に頑張っていこうと思います。</p></div><footer class=entry-footer><span title='2023-09-12 05:50:57 +0900 +0900'>September 12, 2023</span>&nbsp;·&nbsp;1 min</footer><a class=entry-link aria-label="post link to 技育CAMP_vol9" href=https://nematatu.github.io/posts/%E6%8A%80%E8%82%B2camp_vol9/></a></article></main><footer class=footer><span>&copy; 2023 <a href=https://nematatu.github.io/>nematatu blog</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
