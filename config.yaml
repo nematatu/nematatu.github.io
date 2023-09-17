@@ -48,7 +48,7 @@ params:
             - name: Articles
               url: "posts/"
             - name: Portfolio
-              url: "https://nematatu.github.io/website/mysite/"
+              url: "https://nematatu.github.io/Portfolio/mysite/"
     twitterID: "@T_kanntoku"
     description: ""
     images: ["/img/twitter_card.png"]
