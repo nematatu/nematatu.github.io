@@ -1,10 +1,18 @@
 +++
 title = '技育CAMPキャラバン 大阪'
 date = 2023-10-10T00:06:50+09:00
-draft = true
+draft = false
+categories=["tech","photo"]
+tags=["ハッカソン","参加記"]
+showTOC=true
+[cover]
+    image="img/技育CAMPキャラバン_大阪/takoyaki_cover.jpg"
+    alt="Takoyasi saikou"
+    caption=""
 +++
 # 大阪楽しかった！！
-今回は、[技育CAMPキャラバン大阪](https://talent.supporterz.jp/events/6fc08c75-805e-4058-a811-77ac27d7f51e/?utm_source=next&utm_medium=geekcamp)に参加してきました！
+今回は、[技育CAMPキャラバン大阪](https://talent.supporterz.jp/events/6fc08c75-805e-4058-a811-77ac27d7f51e/?utm_source=next&utm_medium=geekcamp)に参加してきました！  
+例のごとく即席チームです！  
 ハッカソン終わってホテルで記事書いてます。
 今回26卒が多くて（もちろんその下もいる）嬉しかったです！  
 結果は..**GMOさんからの企業賞**でした！  
@@ -22,7 +30,13 @@ MagicBoxという、デプロイ自動化のWebアプリケーションを作り
 ただ、**完成**とまではいかず僕のところが実装しきれずに途中経過という形で発表しました。。
 チームメンバーには迷惑をかけました。。  
 継続開発の予定なので、今後実装していきます！  
+- レポジトリ
 [![TakoyakiEatingParty/MagicBox - GitHub](https://gh-card.dev/repos/TakoyakiEatingParty/MagicBox.svg)](https://github.com/TakoyakiEatingParty/MagicBox)
+- Canvaスライド資料  
+https://www.canva.com/design/DAFwtHu-f7g/xv_5mkeKaVlXNUFTae1CsA/view?utm_content=DAFwtHu-f7g&utm_campaign=designshare&utm_medium=link&utm_source=editor  
+
+
+このスライドはメンバーの方に作って頂きました。デザインがめちゃめちゃキレイなのでぜひ見てください！
 ## 結果
 上述しましたが、**GMOさんから企業賞**をいただきました。  
 優秀賞になぜ届かなかったのか、改善点などのアドバイスを求めたところ、「Vercel」や「AWS」 などの既存のサービスとは差別化できるアイデアが足りなかった、とのことでした。  
@@ -35,4 +49,38 @@ MagicBoxという、デプロイ自動化のWebアプリケーションを作り
 懇談会ではゆめみさんやWingArc 1stさん、GMOさんなどから主に就職について相談乗ってもらいました。  
 自分にない知見を知ることができ、これだけでも本当に参加してよかったと思います。  
 本当にありがとうございました。  
-↓相談したこと
+{{<tweet 1711505646158512415>}}  
+# 「たこ焼き食べ隊」
+みんなでたこ焼き食べてきました！
+![](/img/技育CAMPキャラバン_大阪/takoyaki.jpg)
+というのも、ハッカソンが終わったらみんなでたこ焼きを食べたいねということでチーム名を「たこ焼き食べ隊」にしました  
+即席チームでご飯食べに行けるくらい仲良くなれて、横のつながりが増えたことが今回のハッカソンで1番嬉しかったことです！  
+歳が近くてエンジニアリングに関心がある人と話すのはとても新鮮で楽しくて、たこ焼き8個しか頼んでませんが1時間くらいおしゃべりしてました。  
+自作でPC組んだり3Dモデリングやったり、エンジニアのキャリアについてだったり、たくさん話せて楽しい時間でした。
+# まとめ
+総じてとても楽しいハッカソンでした！  
+他チームの発表から新たな視点が得られたり、京都キャラバンでお会いした方とも話せて、いいイベントでした！  
+これだからオフラインはやめられない。。。  
+次回の名古屋は参加できませんが、その次の関東は行こうと思います！  
+余談ですが、チームに名刺を作っている方がいて僕も次回のオフラインイベントまでには作りたいと思いました。
+# 写真
+建物一つ一つが映えますね
+![](/img/技育CAMPキャラバン_大阪/city.jpg)  
+
+出発前
+![](/img/技育CAMPキャラバン_大阪/me.jpg)  
+
+会場に向かう途中の高架橋から
+![](/img/技育CAMPキャラバン_大阪/load.jpg)  
+
+駅前
+![](/img/技育CAMPキャラバン_大阪/umeda_st.jpg)  
+
+タイミング良かった電車
+![](/img/技育CAMPキャラバン_大阪/train.jpg)  
+
+ハッカソン後は優勝しました（カレー辛すぎた）
+![](/img/技育CAMPキャラバン_大阪/victory.JPG)  
+
+加藤さんのサイン
+![](/img/技育CAMPキャラバン_大阪/katosann_sign.JPG)
