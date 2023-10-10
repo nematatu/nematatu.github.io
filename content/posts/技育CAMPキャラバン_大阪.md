@@ -7,7 +7,7 @@ tags=["ハッカソン","参加記"]
 showTOC=true
 [cover]
     image="img/技育CAMPキャラバン_大阪/takoyaki_cover.jpg"
-    alt="Takoyasi saikou"
+    alt="Takoyasi saikouk"
     caption=""
 +++
 # 大阪楽しかった！！
